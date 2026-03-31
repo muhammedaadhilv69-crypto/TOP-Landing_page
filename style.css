@@ -1,24 +1,30 @@
 * {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 1px solid red;
 }
 
-.navbar {
+.container {
+    max-width: 1200px; /* or whatever matches your goal */
+    margin: 0 auto;    /* center container horizontally */
+    padding: 0 20px;   /* some space inside */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
 .nav-links {
     list-style: none;
     display: flex;
     gap: 40px;
-    margin-right: 60px;
 }
-.logo {
-    margin-left: 60px;
-}
+
 
